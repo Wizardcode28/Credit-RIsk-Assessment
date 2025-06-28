@@ -8,8 +8,9 @@ deleting one column which is unnecessary   loan_percent_income=(loan_amnt/person
 
 ## Outliers
 beyond age=84 there are ages like 144 and 123 which are clearly outliers  
-there are some cases which have retirement time greater than 100
-for less memory usage and faster training i converted dtype from float64 to float32 and int64 to int8  
+there are some cases which have retirement time greater than 100  
+
+for less memory usage and faster training i converted dtype from float64 to float32 and int64 to int32  
 separating output labels from features  
 # Encoding by Pipeline
 Using pipeline  
